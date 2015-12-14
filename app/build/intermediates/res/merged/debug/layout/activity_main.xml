@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:itcast="http://schemas.android.com/apk/res/com.itcast01.togglebutton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <com.itcast01.togglebutton.view.ToggleView
+        android:id="@+id/toggleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        itcast:currentState="true"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:onClick="true"
+        itcast:slideButtonBackgroundID="@drawable/slide_button_background"
+        itcast:switchBackgroundID="@drawable/switch_background" />
+
+</RelativeLayout><!-- From: file:/Users/baidu/code/自定义开关011/app/src/main/res/layout/activity_main.xml -->
